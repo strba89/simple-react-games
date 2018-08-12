@@ -1,0 +1,21 @@
+$card-width: 150px;
+$card-height: 150px;
+$card-title-height: 50px;
+$card-icon-height: $card-height - $card-title-height;
+$card-margin-right: 20px;
+
+$menu-background-color: #2DBF80;
+$menu-background-hover-color: #F28964;
+$menu-link-color: #37414C;
+
+$play-cards-per-line: 6;
+$play-cards-max-width: $play-cards-per-line * ($card-width + $card-margin-right);
+
+$mobil-sm: 320px;
+$mobil-md: 576px;
+$tablet-md:  768px;
+$tablet-lg:  992px;
+$desktop-md: 1200px;
+$desktop-lg: 1600px;
+$desktop-xl: 1980px;
+$width-name: max-width;

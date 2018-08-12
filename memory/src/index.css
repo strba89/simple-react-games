@@ -1,0 +1,31 @@
+@import url(~normalize-css/normalize.css);
+@import url(~bootstrap/dist/css/bootstrap.css);
+@import url(./components/card.css);
+@import url(./components/double-bounce-spinner.css);
+@import url(./components/header.css);
+@import url(./views/play.css);
+@import url(./views/layout.css);
+html {
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif; }
+
+html, body, #root {
+  height: 100%; }
+
+a, a:active {
+  color: #4F4F4F;
+  text-decoration: none;
+  transition: color ease-in-out 250ms; }
+  a:hover, a:active:hover {
+    color: black; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }

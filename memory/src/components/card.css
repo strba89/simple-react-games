@@ -1,0 +1,126 @@
+.card {
+  box-shadow: 0 5px 20px 0 rgba(51, 73, 94, 0.05);
+  transition: box-shadow 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+  margin: 0 20px 30px 0;
+  transform: translateZ(0);
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  margin-right: .7em;
+  max-width: 100px;
+  min-height: 118px;
+  border: none;
+  flex-wrap: wrap; }
+  @media (max-width: 992px) {
+    .card {
+      max-width: 88px;
+      min-height: 88px; } }
+  @media (max-width: 768px) {
+    .card {
+      max-width: 85px;
+      min-height: 85px; } }
+  @media (max-width: 576px) {
+    .card {
+      width: 65px;
+      min-height: 65px; } }
+  .card:nth-child(odd) {
+    transform: rotate(2deg); }
+  .card:nth-child(even) {
+    transform: rotate(-2deg); }
+  .card:nth-child(3n+0) {
+    transform: rotate(3deg); }
+  .card:nth-child(4n+0) {
+    transform: rotate(-1deg); }
+  .card:last-child {
+    margin-right: 0; }
+  .card:hover {
+    box-shadow: 0 10px 40px 0 rgba(51, 73, 94, 0.15); }
+  .card.rotate a, .card.rotate a:after {
+    transform: rotateY(180deg); }
+  .card a, .card a:after {
+    backface-visibility: hidden;
+    max-width: 100px;
+    min-height: 100px;
+    border: 2px solid #4F4F4F;
+    border-radius: 2px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    @media (max-width: 992px) {
+      .card a, .card a:after {
+        max-width: 88px;
+        min-height: 88px; } }
+    @media (max-width: 768px) {
+      .card a, .card a:after {
+        max-width: 85px;
+        min-height: 85px; } }
+    @media (max-width: 576px) {
+      .card a, .card a:after {
+        width: 65px;
+        min-height: 65px; } }
+    .card a:nth-child(odd), .card a:after:nth-child(odd) {
+      transform: rotate(2deg); }
+    .card a:nth-child(even), .card a:after:nth-child(even) {
+      transform: rotate(-2deg); }
+    .card a:nth-child(3n+0), .card a:after:nth-child(3n+0) {
+      transform: rotate(3deg); }
+    .card a:nth-child(4n+0), .card a:after:nth-child(4n+0) {
+      transform: rotate(-1deg); }
+  .card a {
+    display: block;
+    color: #4F4F4F;
+    z-index: 2;
+    height: 100%;
+    border: none; }
+    .card a:after {
+      content: url(../img/logo/logo.png);
+      height: 100%;
+      transform: rotateY(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3em;
+      font-weight: lighter; }
+      @media (max-width: 768px) {
+        .card a:after {
+          content: url(../img/logo/logo2.png); } }
+  .card .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100px;
+    height: 100%; }
+    @media (max-width: 992px) {
+      .card .card-icon {
+        max-width: 88px;
+        min-height: 88px; } }
+    @media (max-width: 768px) {
+      .card .card-icon {
+        max-width: 85px;
+        min-height: 85px; } }
+    @media (max-width: 576px) {
+      .card .card-icon {
+        width: 65px;
+        min-height: 65px; } }
+    .card .card-icon img {
+      height: 100%;
+      width: 100%; }
+
+.card-columns {
+  column-count: 1; }
+  @media (max-width: 1980px) {
+    .card-columns {
+      column-count: 1; } }
+  @media (max-width: 768px) {
+    .card-columns {
+      column-count: 1; } }
+  @media (max-width: 576px) {
+    .card-columns {
+      column-count: 2; } }
+  @media (max-width: 320px) {
+    .card-columns {
+      column-count: 4; } }

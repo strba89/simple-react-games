@@ -1,0 +1,22 @@
+.play-view {
+  width: 100%; }
+  .play-view .control {
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start; }
+    .play-view .control .timer, .play-view .control .moves {
+      margin-left: 20px;
+      font-weight: lighter;
+      font-size: 30px; }
+      .play-view .control .timer p, .play-view .control .moves p {
+        margin: 0; }
+    .play-view .control .moves span {
+      margin-left: 20px;
+      margin-right: 20px; }
+  .play-view .cards {
+    justify-content: center;
+    flex-wrap: wrap; }
+  .play-view .control, .play-view .cards {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1020px; }

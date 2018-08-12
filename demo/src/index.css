@@ -1,0 +1,9 @@
+@import url(../../memory/src/index.css);
+@import url(../../sliding-puzzle/src/index.css);
+@import url(./Components/Menu.css);
+@import url(./views/GameOverPage.css);
+@import url(./views/SuccessPage.css);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
